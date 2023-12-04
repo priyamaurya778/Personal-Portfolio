@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+</head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Poppins:wght@200;400&family=Sedgwick+Ave+Display&display=swap"
+      rel="stylesheet"
+    />
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+    background-color: rgb(9, 9, 52);
+    font-family: "Poppins", sans-serif;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        color: white;
+        font-size: 40px;
+        background-color: rgb(77, 26, 128);
+      }
+      .top{
+        color: white;
+      }
+      .top .btn1{
+        margin: 30px;
+        padding: 12px;
+        background: rgb(140, 140, 162);
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 15px;
+        cursor: pointer;
+     }
+     .top .btn2{
+        margin: 30px;
+        padding: 12px;
+        background: rgb(140, 140, 162);
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 15px;
+        cursor: pointer;
+     }
+     body hr{
+        border: 0;
+        background-color: rgb(125, 119, 119);
+        height: 1.5px;
+        margin: 60px 84px;
+     }
+     .review{
+        display: flex;
+       margin: 30px;
+        align-items: center;
+        height: 80px;
+        /* padding: 0 60px; */
+        color: white;
+        font-size: 25px;
+     }
+     textarea {
+        margin: 30px;
+  width: 40%;
+  height: 150px;
+  padding: 12px 60px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color:  rgb(140, 140, 162);
+  font-size: 16px;
+  resize: none;
+}
+::placeholder{
+   color: rgb(52, 57, 114);
+}
+.buttons{
+    margin: 30px;
+  background-color:  rgb(52, 57, 114);
+  /* border: none; */
+  color: white;
+  padding: 15px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+</style>
+<body>
+    <header>
+        <nav>
+        <h1>Projects made by Priya</h1>
+    </nav>
+    </header>
+    <section>
+    <div class="top">
+        <div class="top1">
+         <ol>
+            <button class="btn1"><a href="index.html">Portfolio Website</a></button>
+         </ol>
+        </div>
+
+        <div class="top2">
+            <ol>
+               <button class="btn2"><a href="flipkartclone.html">Flipkart Clone</a></button>
+            </ol>
+           </div>
+    </div>
+</section>
+<hr>
+<section>
+    <div class="review">
+        WRITE YOUR REVIEW ABOUT THESE PROJECTS:
+    </div>
+    <!-- <label class="blue" for="textarea1"></label>
+         <br/>
+         <textarea name="textarea1" id="textarea1" cols="40" rows="10" placeholder="Write your review"></textarea> -->
+         <form>
+            <textarea placeholder="Write your review"></textarea>
+          </form>
+          <br>
+          <button class="buttons">SUBMIT</button>
+</section>
+</body>
+</html>
